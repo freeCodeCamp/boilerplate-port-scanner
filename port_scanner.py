@@ -1,6 +1,6 @@
 import socket
 
-def get_open_ports(target, port_range):
+def get_open_ports(target, port_range, verbose = False):
     open_ports = []
 
 
