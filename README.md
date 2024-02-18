@@ -38,7 +38,10 @@ You can use the dictionary in common_ports.py to get the correct service name fo
 
 For example, if the function is called like this:
 
+```
 port_scanner.get_open_ports("scanme.nmap.org", [20, 80], True)
+```
+
 It should return the following:
 
 Open ports for scanme.nmap.org (45.33.32.156)
