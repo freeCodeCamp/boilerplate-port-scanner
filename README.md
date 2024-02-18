@@ -32,7 +32,6 @@ Open ports for {URL} ({IP address})
 PORT     SERVICE
 {port}   {service name}
 {port}   {service name}
-
 ```
 
 You can use the dictionary in common_ports.py to get the correct service name for each port.
